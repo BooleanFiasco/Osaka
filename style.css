@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Osaka Child
+ Theme URI:    http://beyondthenorm.org/osaka-child/
+ Description:  Osaka, a Tracks Child Theme
+ Author:       Norm Nazaroff
+ Author URI:   http://beyondthenorm.org
+ Template:     tracks
+ Version:      0.1
+ Text Domain:  tracks-child
+*/
+
+.fa-twitch
+{
+    position: relative;
+    top: 1.5px;
+}
