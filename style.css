@@ -15,6 +15,12 @@
     top: 1.5px;
 }
 
+.fa-envelope
+{
+    position: relative;
+    top: -1px;
+}
+
 .wp-caption
 {
     background: #222;
@@ -43,6 +49,36 @@ p
 .excerpt-title
 {
     margin: 1.5em 0;
+}
+
+.featured-image
+{
+    padding-bottom: 30%;
+}
+
+.site-footer
+{
+    padding-top: 0;
+}
+
+.design-credit
+{
+    margin-top: 1em;
+    clear: both;
+}
+
+/* Fixes design credit/footer extra margin spacing in desktop resolutions */
+@media all and (min-width: 56.25em)
+{
+    .widget_recent_comments
+    {
+        margin-bottom: 0 !important;
+    }
+    
+    .widget_latest_tweets_widget
+    {
+        margin-bottom: 0 !important;
+    }
 }
 
 /* Latest Tweets widget styling */
@@ -114,4 +150,14 @@ p
 .recent-comment .comment-avatar
 {
     padding-left: 16px;
+}
+
+.recent-comments-list
+{
+    margin-bottom: 0;
+}
+
+.latest-tweets ul
+{
+    margin-bottom: 0;
 }
