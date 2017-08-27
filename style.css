@@ -14,3 +14,104 @@
     position: relative;
     top: 1.5px;
 }
+
+.wp-caption
+{
+    background: #222;
+    padding: 8px;
+}
+
+.wp-caption-text
+{
+    text-align: center;
+    line-height: 1.25;
+    padding-top: 8px;
+    color: white;
+    font-style: italic;
+}
+
+p
+{
+    margin-top: 0;
+}
+
+.site-description
+{
+    margin: 1.5em 0;
+}
+
+.excerpt-title
+{
+    margin: 1.5em 0;
+}
+
+/* Latest Tweets widget styling */
+.latest-tweets {
+    /* style tweet list wrapper */
+}
+.latest-tweets h3 {
+    /* style whatever you did with the header */
+}
+.latest-tweets ul { 
+    /* style tweet list*/
+}
+.widget .latest-tweets li {
+   /* style tweet item */
+   background: #222;
+   padding: 12px 16px;
+   margin: 8px 0;
+}
+.latest-tweets .tweet-text {
+   /* style main tweet text */
+   text-align: left;
+   color: white;
+   text-transform: none;
+   font-size: 1.1em;
+}
+.latest-tweets .tweet-text a {
+   /* style links, hashtags and mentions */
+   color: white;
+   text-decoration: underline;
+}
+.latest-tweets .tweet-text .emoji {
+  /* style embedded emoji image in tweet */ 
+}
+.latest-tweets .tweet-details {
+  /* style datetime and link under tweet */
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+/* Better Recent Comments widget */
+.recent-comment
+{
+    background: #222;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.recent-comment .comment-wrap
+{
+    text-align: left;
+    color: white;
+    text-transform: none;
+    padding-left: 68px !important;
+    font-size: 1.1em;
+}
+
+.recent-comment .comment-post a
+{
+    text-transform: uppercase;
+    color: white;
+}
+
+.recent-comment .comment-date
+{
+    text-transform: uppercase;
+}
+
+.recent-comment .comment-avatar
+{
+    padding-left: 16px;
+}
